@@ -7,3 +7,5 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+# One could use the unittest library to test various values of n for is_prime(n)
